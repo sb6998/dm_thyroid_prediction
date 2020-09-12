@@ -1,8 +1,13 @@
-Topic: A Comparative Study on Machine Learning Algorithms for the prediction of Thyroid dysfunction.
+# A Comparative Study on Machine Learning Algorithms for the prediction of Thyroid dysfunction.
+
 Description of the Project:
 The successful application of data mining in various domains such as marketing, retail, engineering or banking has led to the expansion of its horizon to new fields, namely medicine and public health. Nowadays, there is a growing demand for the healthcare community to transform the existing quantities of healthcare data into value-added data, by discovering unknown patterns and relations between these data and by using them in the decision-making process, even if they refer to management, planning or treatments. Data mining consists in discovering knowledge and techniques such as classification and regression trees, logistic regression and neural networks that are adequate to predict the health status of a patient, by taking into account various medical parameters (also known as attributes) and demographic parameters.
+
 The project is about the classification of patients with thyroid dysfunctions into three classes (i.e. 1 – hypothyroidism, 2 – hyperthyroidism, 3- normal) by using data mining algorithms and perform a comparative study by using the six classification models (Naïve Bayes, Decision Tree(CART), Neural Networks, KNN, SVM, and Random Forest) on thyroid dataset to identify the model which have highest accuracy to classify the thyroid dysfunction namely hyperthyroidism, hypothyroidism or normal.
+
 The dataset consists of 29 attributes (i.e. age, sex, on_thyroxine, query_on_thyroxine, on_antithyroid_medication, sick, pregnant, thyroid_surgery, I131_treatment, query_hypothyroid, query_hyperthyroid, Lithium, goiter, tumor, hypopituitary, psych, TSH, TT4, T3, T4U, FTI, class) characteristic to each patient.
+
 The target attribute is class and it is categorical with three possible values (1, 2 and 3). The attributes TSH, TT4, T3, T4U and FTI take real values, while the rest of the attributes are categorical as the target attribute. To sum up, the model used will have 21 predictors. Prediction is done based on these 21 predictors and Explanatory variables.
+
 The most important attribute is TSH (Thyroid Stimulating Hormone), which indicates whether a patient’s thyroid gland functions properly. An underactive thyroid gland means
 hypothyroidism (TSH values are greater than the upper limit of the normal range), while an overactive thyroid means hyperthyroidism (TSH values are lower than the lower limit of the normal range). The second most important attribute FTI (Free Thyroxine Index), an estimation of the free T4 concentration. Another important attribute is Triiodothyronine (T3), one of two major hormones produced by the thyroid gland and along with thyroxine (T4) helps control the rate at which the body uses energy.
